@@ -1,1 +1,2 @@
 # Wide-coverage
+# Ampla cobertura
