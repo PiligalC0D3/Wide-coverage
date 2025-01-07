@@ -122,10 +122,56 @@ p {
   text-decoration: underline ;
 }
 
-@media screen and ( max-width: 600px) and (orientation: landscape) {
+/*@media screen and ( max-width: 600px) and (orientation: landscape) {
     head {
       height: 200px;
       width: 200px;
     }
-}
+*/
+    @media (min-width: 375px) and (max-width: 667px) {
 
+      .link-header {
+        display: none;
+      }
+
+      img {
+        width: 737.18px;
+        height: 667px;
+        
+        
+      }
+
+      section{
+       text-align: center;
+       position: relative;
+      }
+
+      button{
+        border-radius: 28px;
+        position: relative;
+        left: 600px;
+        
+      }
+
+      p{
+        font-size: 21px;
+        width: 570px;
+        height: 78px;
+      };
+
+      h1{
+        position: absolute;
+        width: 488px;
+        text-align-last: center;
+        font-size: 72px;
+      }
+  /*
+        text-align: -webkit-center;
+      }
+
+      h1{
+        text-align: -webkit-center;
+      }
+
+    }
+*/}
